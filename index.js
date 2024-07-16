@@ -87,12 +87,6 @@ tree.add(1)
 tree.add(22)
 
 
-//     6
-//  3    16
-// 1    7  22
-//       8
-// 
-
 console.log('pre');
 tree.loopDeep((val => console.log(val.value, val)), 'preOrder')
 console.log('in');
